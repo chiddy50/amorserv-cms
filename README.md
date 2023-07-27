@@ -41,6 +41,8 @@ Make sure you have the following installed on your system:
 ## Serve the Application
 1. Finally, serve the application using the built-in development server:
 > php artisan serve
+
+2. And run this for vite:
 > npm run dev
 
 
