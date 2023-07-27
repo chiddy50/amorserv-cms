@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.layout-width {
+    @apply
+    xxs:w-11/12
+    xs:w-11/12
+    sm:w-11/12
+    md:w-11/12
+    lg:w-5/6
+    xl:w-5/6
+    xxl:w-5/6
+    mx-auto ;
+}
+
+.website__header {
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+
+/* COMPONENTS */
+.blog__btn {
+    padding: 0.8rem 2rem;
+    outline: none;
+    border: none;
+    background-color: #4a4a4a;
+    color: #fff;
+    font-size: .8rem;
+}
