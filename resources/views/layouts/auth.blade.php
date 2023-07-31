@@ -140,17 +140,20 @@
     @stack('script')
 
     <script>
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        mobileMenuBtn.addEventListener('click', (e) => {
-            let sidebar = document.querySelector('#sidebar')
-            sidebar.classList.toggle('show');
-        });
+        document.addEventListener('DOMContentLoaded', ()=> {
 
-        const closeMenuBtn = document.getElementById('close-menu-btn');
-        closeMenuBtn.addEventListener('click', (e) => {
-            let sidebar = document.querySelector('#sidebar')
-            sidebar.classList.remove('show');
-        });
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            mobileMenuBtn.addEventListener('click', (e) => {
+                let sidebar = document.querySelector('#sidebar')
+                sidebar.classList.toggle('show');
+            });
+
+            const closeMenuBtn = document.getElementById('close-menu-btn');
+            closeMenuBtn.addEventListener('click', (e) => {
+                let sidebar = document.querySelector('#sidebar')
+                sidebar.classList.remove('show');
+            });
+        })
 
 
     </script>

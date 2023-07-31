@@ -1,4 +1,4 @@
-<section class="col-span-3">
+<section class="col-span-1">
     <h1 class="text-xl mb-5 font-bold">Posts</h1>
 
     @if (count($posts) > 0)

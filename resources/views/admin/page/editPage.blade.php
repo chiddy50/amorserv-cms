@@ -1,8 +1,17 @@
 @extends('layouts.auth')
 
 @section('content')
-    <div class="grid grid-cols-6 gap-5 ">
-        <section class="col-span-3">
+    <div class="
+    grid
+    xxs:grid-cols-1
+    xs:grid-cols-1
+    sm:grid-cols-1
+    md:grid-cols-1
+    lg:grid-cols-2
+    xl:grid-cols-2
+    xxl:grid-cols-2
+    gap-5 ">
+        <section class="col-span-1">
             <h1 class="text-xl mb-5 font-bold">Edit Page</h1>
 
             @if($errors->any())

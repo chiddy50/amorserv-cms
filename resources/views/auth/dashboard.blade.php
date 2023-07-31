@@ -2,7 +2,16 @@
 
 @section('content')
 
-    <div class="grid grid-cols-3 gap-5">
+    <div class="
+    grid
+    xxs:grid-cols-1
+    xs:grid-cols-1
+    sm:grid-cols-1
+    md:grid-cols-2
+    lg:grid-cols-3
+    xl:grid-cols-3
+    xxl:grid-cols-3
+    gap-5">
         <div class="p-5 bg-white shadow flex items-center justify-between">
             <p class="text-3xl font-bold">Pages</p>
             <p class="text-gray-400 text-2xl">{{ $page_count }}</p>
