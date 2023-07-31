@@ -34,9 +34,6 @@
 
                     <p class="text-xs mb-7 leading-5">
                         {!! $post->description !!}
-                        {{-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo officia autem, sunt aut pariatur sed corrupti maxime, cumque optio eligendi blanditiis, culpa a? Molestiae pariatur dolorum quod tempore voluptate tempora.
-                        Sed illo tempore velit quidem culpa, sint id omnis minus optio doloremque odio tenetur atque dolor sapiente quas quis in maxime, similique voluptate qui rem nobis. Sequi enim excepturi quam?
-                        Sunt inventore libero blanditiis nobis cupiditate? Officia, eligendi. Suscipit, vitae magni. Mollitia iure quos perspiciatis, illum blanditiis id odit nobis ut, modi quae ea, repellendus vitae suscipit vero maxime? Veritatis? --}}
                     </p>
 
                     <div class="mt-5">

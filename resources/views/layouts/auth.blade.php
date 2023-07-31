@@ -27,9 +27,17 @@
             <div class="flex flex-col justify-between h-full text-white">
 
                 <div>
-                    <div class="sidebar__logo">
-                        <h1 class="text-2xl">Amorserv CMS</h1>
-                        <i class='bx bx-x-circle pr-4 text-2xl text-white cursor-pointer'></i>
+                    <div class="sidebar__logo mt-2">
+                        <h1 class="
+                        xxs:text-xl
+                        xs:text-xl
+                        sm:text-xl
+                        md:text-xl
+                        lg:text-xl
+                        xl:text-2xl
+                        xxl:text-2xl
+                        ">Amorserv</h1>
+                        <i id="close-menu-btn" class='bx bx-x text-4xl text-white cursor-pointer'></i>
                     </div>
 
 
@@ -103,7 +111,7 @@
 
             {{-- HEADER --}}
             <div class="navbar shadow-sm px-10 flex items-center bg-white">
-                <i class='
+                <i id="mobile-menu-btn" class='
                     bx bx-menu-alt-left
                     cursor-pointer
                     text-4xl
@@ -130,5 +138,21 @@
 
     </div>
     @stack('script')
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        mobileMenuBtn.addEventListener('click', (e) => {
+            let sidebar = document.querySelector('#sidebar')
+            sidebar.classList.toggle('show');
+        });
+
+        const closeMenuBtn = document.getElementById('close-menu-btn');
+        closeMenuBtn.addEventListener('click', (e) => {
+            let sidebar = document.querySelector('#sidebar')
+            sidebar.classList.remove('show');
+        });
+
+
+    </script>
 </body>
 </html>
