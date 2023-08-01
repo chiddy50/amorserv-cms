@@ -84,7 +84,7 @@
         </div>
     </section>
     @else
-        <div class="p-3 min-h-screen bg-gray-400 text-white gap-3 rounded-lg flex items-center justify-center">
+        <div class="p-3 h-80 bg-gray-400 text-white gap-3 rounded-lg flex items-center justify-center">
             <i class='bx bxs-error-alt text-4xl'></i>
             <p class="text-sm">No post added yet</p>
         </div>
