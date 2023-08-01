@@ -10,7 +10,19 @@
 
     @if (count($latestPosts) > 0)
 
-    <section class="layout-width mt-5 grid grid-cols-6 gap-10 mb-10">
+    <section class="
+    layout-width
+    mt-5
+    grid
+    xxs:grid-cols-1
+    xs:grid-cols-1
+    sm:grid-cols-1
+    md:grid-cols-1
+    lg:grid-cols-6
+    xl:grid-cols-6
+    xxl:grid-cols-6
+    gap-10
+    mb-10">
         <div class="col-span-4">
 
             @foreach ($latestPosts as $post)
@@ -72,7 +84,7 @@
         </div>
     </section>
     @else
-        <div class="p-3 bg-gray-400 text-white gap-3 rounded-lg flex items-center justify-center">
+        <div class="p-3 min-h-screen bg-gray-400 text-white gap-3 rounded-lg flex items-center justify-center">
             <i class='bx bxs-error-alt text-4xl'></i>
             <p class="text-sm">No post added yet</p>
         </div>
